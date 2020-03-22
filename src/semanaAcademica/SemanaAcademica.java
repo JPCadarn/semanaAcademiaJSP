@@ -4,6 +4,12 @@ public class SemanaAcademica {
 	private int ano;
 	private String tema;
 	private String nome;
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 	private String periodo;
 	private String cursoOrganizador;
 	

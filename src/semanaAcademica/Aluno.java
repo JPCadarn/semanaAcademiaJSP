@@ -1,17 +1,17 @@
 package semanaAcademica;
 
 public class Aluno {
-	private int matricula;
+	private String matricula;
 	private String nome;
 	private String email;
 	private String dataNascimento;
 	private String curso;
 	private int periodo;
 	
-	public int getMatricula() {
+	public String getMatricula() {
 		return matricula;
 	}
-	public void setMatricula(int matricula) {
+	public void setMatricula(String matricula) {
 		this.matricula = matricula;
 	}
 	public String getNome() {

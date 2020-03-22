@@ -8,22 +8,22 @@
 </head>
 <body>
 	<form action="cadastrarAluno.jsp" method="POST">
- 		<label for="ano">Matrícula</label>
+ 		<label for="matricula">Matrícula</label>
  		<input type="text" placeholder='Matrícula' name="matricula">
  		<br>
- 		<label for="ano">Nome</label>
+ 		<label for="nome">Nome</label>
  		<input type="text" placeholder='Nome' name="nome">
  		<br>
- 		<label for="ano">Email</label>
+ 		<label for="email">Email</label>
  		<input type="text" placeholder='Email' name="email">
  		<br>
- 		<label for="ano">Data de Nascimento</label>
+ 		<label for="dt_nascimento">Data de Nascimento</label>
  		<input type="text" placeholder='Data de Nascimento' name="dt_nascimento">
  		<br>
- 		<label for="ano">Curso</label>
+ 		<label for="curso">Curso</label>
  		<input type="text" placeholder='Curso' name="curso">
  		<br>
- 		<label for="ano">Período</label>
+ 		<label for="periodo">Período</label>
  		<input type="number" placeholder='Período' name="periodo">
  		<br>
  		<input type="submit" value="Salvar"> 
